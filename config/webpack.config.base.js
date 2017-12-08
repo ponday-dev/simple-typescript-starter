@@ -17,7 +17,7 @@ module.exports = {
 		]
 	},
 	resolve: {
-		extensions: [ '.ts' ],
+		extensions: [ '*', '.ts', '.js' ],
 		alias: {
 			'~': path.join(__dirname, '..', 'src')
 		}
